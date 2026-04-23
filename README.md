@@ -1,18 +1,48 @@
-# React + Vite
+# StellarSplit: Split Bill Calculator 🪐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, dark-themed decentralized application (dApp) built for **Stellar Level 1 - White Belt**. StellarSplit allows users to seamlessly connect their Freighter wallet, view their Testnet XLM balance, calculate tips, and settle their share of a bill directly on the Stellar Testnet.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Wallet Integration:** Securely connect and disconnect using the Freighter browser extension.
+- **Real-time Balance:** Automatically fetches and displays your current Testnet XLM balance.
+- **Smart Calculator:** Includes a tip slider and provides a receipt-style breakdown (Subtotal, Tip, Total, Your Share).
+- **On-Chain Settlement:** Sends XLM payments securely on the Stellar Testnet.
+- **Transaction Feedback:** Displays clear success/error states along with the transaction hash and a direct link to verify on StellarExpert.
+- **Modern UI:** Premium dark mode interface built with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Setup Instructions (Local Development)
 
-## React Compiler
+Follow these steps to run the project locally on your machine:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Freighter Wallet Extension](https://www.freighter.app/) installed in your browser and set to **Testnet**.
 
-Note: This will impact Vite dev & build performances.
+### Installation & Execution
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Aritra-Roy-O6/StellarSplit
+   cd stellarsplit
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**ScreenShots**
+
+Initial state:
+
+![alt text](image.png)
+
+Wallet Connected:
+
+![alt text](image-1.png)
+
+Payment Process:
+
+![alt text](image-2.png)
+
+Payment Done:
+
+![alt text](image-3.png)
+
+Stats on stellar expert:
+
+![alt text](image-4.png)
